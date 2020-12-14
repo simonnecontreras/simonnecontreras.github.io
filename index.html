@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/f6fbd80a5e.js" crossorigin="anonymous"></script>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bowlby+One&family=Noto+Sans+JP&family=Roboto&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <!-- My styles -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Simonne Contreras</title>
+  </head>
+  <body>
+
+    <!-- Navbar -->
+    <div id="navbar" class="row navbar">
+      <div class="col-xs-3 homemargin">
+        <button onclick="window.location.href='#'" class="homebutton">
+          Simonne
+        </button>
+      </div>
+      <div class="col-xs-9 iconsection">
+        <button onclick="window.open('https://www.linkedin.com/in/simonnecontreras/', '_blank')" class="iconbuttons">
+          <span class="icon">
+            <i class="fab fa-linkedin-in"></i>
+          </span>
+        </button>
+        <button onclick="location.href='mailto:sccontre@ucsd.edu'" class="iconbuttons">
+          <span class="icon">
+            <i class="far fa-envelope"></i>
+          </span>
+        </button>
+        <button class="iconbuttons resume">
+          <span class="icon">
+            <i class="far fa-file-alt"></i>
+          </span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Resume PDF -->
+    <div class="modal">
+      <div class="contentModal">
+        <embed src="images/Lab9.pdf" width="100%" height="100%" />
+      </div>
+    </div>
+
+    <!-- Pagination -->
+    <div class="pagination">
+      <a href="#" class="pagination-circle"></a>
+      <div class="pagination-line"></div>
+      <a href="#NerdWallet" class="pagination-circle"></a>
+      <div class="pagination-line"></div>
+      <a href="#Google" class="pagination-circle"></a>
+      <div class="pagination-line"></div>
+      <a href="#Twitter" class="pagination-circle"></a>
+      <div class="pagination-line"></div>
+      <a href="#UCSD" class="pagination-circle"></a>
+      <div class="pagination-line"></div>
+      <a href="#Almounds" class="pagination-circle"></a>
+      <div class="pagination-line"></div>
+      <a href="#Autograder" class="pagination-circle"></a>
+      <div class="pagination-line"></div>
+      <a href="#Salary" class="pagination-circle"></a>
+    </div>
+
+    <!-- Plant Button + About Me -->
+    <img src="images/plant.png" alt="Plant doodle" class="plant" onclick=opendialogue()>
+    <div class="chatmodal">
+      <div class="modalContent">
+        <span class="close">&times</span>
+        <h4>About Me!</h4>
+        <p>Hello there! My name is Simonne and I'm an undergraduate at UCSD majoring in Computer Science and minoring in Design.</p>
+        <p>In my free time, I love to listen to music, binge watch TV and look up yummy foods to cook and bake!</p>
+        <p>Feel free to connect with me on <a target="_blank" href="https://www.linkedin.com/in/simonnecontreras/">linkedin</a> or shoot me an email at <a href="mailto:sccontre@ucsd.edu">sccontre@ucsd.edu!</a></p>
+      </div>
+    </div>
+
+    <!-- Content -->
+    <div class="">
+      <section id="">
+        <div class="section first" data-color=#C5E2A0>
+          <h1 class="name heading">Simonne Contreras</h1>
+          <h3 class="subtitle">Undergrad CS @ UCSD</h3>
+          <h3 class="subtitle">Incoming SWE Intern @ NerdWallet & Google</h3>
+        </div>
+      </section>
+
+      <section id="NerdWallet">
+        <div class="section row" data-color=#B9DC8D>
+          <div class="col-lg-5 col-md-4 col-xs-12 d-flex justify-content-center">
+            <img src="images/nerdwallet.png" alt="NerdWallet Logo" class="logo">
+          </div>
+          <div class="col-lg-7 col-md-8 col-xs-12 align-self-center text-md-right text-center">
+            <h3 class="job-title heading">NerdWallet</h3>
+            <h4 class="sub">SWE Intern | Summer 2021</h4>
+            <br>
+            <p>Coming Soon!</p>
+          </div>
+      </section>
+
+      <section id="Google">
+        </div>
+        <div class="section row" data-color=#AAD576>
+          <div class="col-lg-5 col-md-4 col-xs-12 d-flex justify-content-center">
+            <img src="images/google.png" alt="Google Logo" class="logo">
+          </div>
+          <div class="col-lg-7 col-md-8 col-xs-12 align-self-center text-center text-md-right">
+            <h3 class="job-title heading">Google</h3>
+            <h4 class="sub">SWE Intern | Fall 2021</h4>
+            <br/>
+            <p>Coming Soon!</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="Twitter">
+        <div class="section row" data-color=#8FBF5C>
+          <div class="col-lg-5 col-md-4 col-xs-12 d-flex justify-content-center">
+            <img src="images/twitter.png" alt="Twitter Logo" class="logo">
+          </div>
+          <div class="col-lg-7 col-md-8 col-xs-12 align-self-center text-center text-md-right">
+            <h3 class="job-title heading">Twitter</h3>
+            <h4 class="sub">SWE Intern | Summer 2020</h4>
+            <br>
+            <p>Made core improvements to an outdated internal form using React, Scala, and Figma in order to ensure advertiser trust in the Twitter brand, prevent loss of revenue, and reduce overhead for engineers in debugging issues that arise with advertisements.</p>
+            <br/>
+            <p>Added response and validation logic in Scala, drafted new UI features in Figma, and met with Project Managers frequently as a full stack engineer in order to build out the proposed UI features in React.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="UCSD">
+        <div class="section row" data-color=#73A942>
+          <div class="col-lg-5 col-md-4 col-xs-12 d-flex justify-content-center">
+            <img src="images/cse.gif" alt="UCSD Logo" class="logo">
+          </div>
+          <div class="col-lg-7 col-md-8 col-xs-12 align-self-center text-md-right text-center">
+            <h3 class="job-title heading">UCSD CSE Department</h3>
+            <h4 class="sub">Undergraduate Tutor | Present</h4>
+            <br>
+            <p>Assist students with course concepts regarding data structures and software engineering tools in 3 lower division and 2 upper division courses under instructors Gary Gillespie and Niema Moshiri.</p>
+            <br/>
+            <p>Provide students with targeted assistance during open lab hours. This coursework consists of utilizing data structures to solve theoretical problems and creating web and mobile applications from scratch.</p>
+            <br>
+            <p>Prepare feedback on students' work as well as advice on best debugging practices in order to create better and more mindful programmers.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="Almounds">
+        <div class="section row" data-color=#639B32>
+          <div class="col-lg-5 col-md-4 col-xs-12 d-flex justify-content-center">
+            <img src="images/almounds.png" alt="Almounds Logo" class="logo">
+          </div>
+          <div class="col-lg-7 col-md-8 col-xs-12 align-self-center text-md-right text-center">
+            <h3 class="job-title heading">Almounds</h3>
+            <h4 class="sub">Developer | March 2020</h4>
+            <br>
+            <p>As a Front End Design Lead and Developer, created an application for the CCAGA with the goal of digitizing and simplifying their process for stockpiling and shelling almonds.</p>
+            <br/>
+            <p>Using React Native and React Navigation, created a multi platform dynamic application for the cataloging of almond truckloads and their algorithmic placement.</p>
+            <br>
+            <p>Over 10 weeks with 9 other peers, designed and constructed a fully functional application for the internal use of the CCAGA with support for different role types and actions of employees in accordance with current processes.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="Autograder">
+        <div class="section row" data-color=#5B942A>
+          <div class="col-lg-5 col-md-4 col-xs-12 d-flex justify-content-center">
+            <img src="images/autograder.ico" alt="Autograder Logo" class="logo">
+          </div>
+          <div class="col-lg-7 col-md-8 col-xs-12 align-self-center text-md-right text-center">
+            <h3 class="job-title heading">Autograder</h3>
+            <h4 class="sub">Project Lead | Present</h4>
+            <br>
+            <p>Front End Design Lead and Developer of the UCSD CSE department's queuing and automated grading website (autograder.ucsd.edu).</p>
+            <br/>
+            <p>Autograder is used by approximately 2000 UCSD CSE students on a daily basis and considering the new virtual nature of university, it has become crucial in connecting students with academic help in core classes.</p>
+            <br>
+            <p>Lead a team of peers in redesigning our UI with newer technologies by migrating to a newer React & Axios stack paired with the popular Material UI Framework.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="Salary">
+        <div class="section row" data-color=#538D22>
+          <div class="col-lg-5 col-md-4 col-xs-12 d-flex justify-content-center">
+            <img src="images/ucsd.png" alt="UCSD Logo" class="logo">
+          </div>
+          <div class="col-lg-7 col-md-8 col-xs-12 align-self-center text-md-right text-center">
+            <h3 class="job-title heading">Salary Predictor</h3>
+            <h4 class="sub">Developer | March 2020</h4>
+            <br>
+            <p>Scraped the UC Payroll Ledgers and UCSD Professor Recommendation website for data on UCSD Professors to answer a research question regarding the salary of Professors at UCSD.</p>
+            <br/>
+            <p>Used the pandas library within Python to standardize the collected data sets and find correlation amongst and between different measured factors.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <div class="footer">
+      </div>
+    </div>
+    <!-- Link javascript -->
+    <script src="js/index.js" charset="utf-8"></script>
+  </body>
+</html>
