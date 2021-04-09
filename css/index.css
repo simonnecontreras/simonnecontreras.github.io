@@ -18,6 +18,13 @@ p {
   font-size: 1.05rem;
 }
 
+a {
+  font-weight: 600;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 1.05rem;
+  color: #3251C3;
+}
+
 .homemargin {
   padding: 0;
   text-align: left;
