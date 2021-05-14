@@ -5,7 +5,7 @@ html {
 body {
   font-family: 'Bowlby One', cursive;
   font-weight: 300;
-  background-color: #C5E2A0;
+  background-color: #C0E8F9;
   transition: background-color .5s ease;
 }
 
@@ -15,7 +15,8 @@ h1 {
 
 p {
   font-family: 'Noto Sans JP', sans-serif;
-  font-size: 1.05rem;
+  font-size: 1.25rem;
+  padding-bottom: 50px;
 }
 
 a {
@@ -44,9 +45,9 @@ a {
 }
 
 .name {
-  text-align: center;
+  text-align: left;
   text-transform: uppercase;
-  margin-top: 25vh;
+  padding-left: 175px;
   font-weight: bold;
   font-size: 4rem;
 }
@@ -55,7 +56,7 @@ a {
   text-align: center;
   font-family: 'Noto Sans JP', sans-serif;
   font-size: 1.35rem;
-  text-transform: lowercase;
+  padding-left: 175px;
   color: #212529;
 }
 
@@ -85,7 +86,7 @@ a {
 }
 
 .icon {
-  color: #E6F2D6;
+  color: #F8F0FA;
   margin: 0;
   padding: 0;
 }
@@ -206,14 +207,23 @@ a {
 }
 
 .first {
-  padding: 0 !important;
-  height: 50vh;
+  padding-top: 0px !important;
+  text-align: left;
+  min-height: 750px;
+}
+
+.projheader {
+  padding-bottom: 50px;
+}
+.other {
+  margin-left: 15vw !important;
+  margin-right: 15vw !important;
 }
 
 .section {
   padding-top: 15vh;
-  margin-left: 13.5vw;
-  margin-right: 12.5vw;
+  margin-left: 7vw;
+  margin-right: 7vw;
 }
 
 .sub {
@@ -228,7 +238,7 @@ a {
   color: #1C1F21;
 }
 
-.modal {
+.modal2 {
   display: none;
   position: fixed;
   z-index: 5;
@@ -293,6 +303,21 @@ a {
 
 .footer {
   height: 30vh;
+}
+
+.pad {
+  padding-left: 6vw;
+  padding-right: 6vw;
+  padding-top: 5vh;
+}
+
+.firstsect {
+  height: 1000px;
+}
+
+.header {
+  text-align: center;
+  padding-top: 60px;
 }
 
 
