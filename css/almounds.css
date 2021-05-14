@@ -85,6 +85,28 @@ a {
   padding: 0;
 }
 
+.schema {
+  width: 800px;
+  border: 5px solid black;
+  border-radius: 50px;
+}
+
+.centeredschema {
+  align-items: center;
+  text-align: center;
+}
+
+.why {
+  width: 400px;
+  border: 5px solid black;
+  border-radius: 50px;
+}
+
+.centeredwhy {
+  align-items: center;
+  text-align: center;
+}
+
 .icon {
   color: #F8F0FA;
   margin: 0;
