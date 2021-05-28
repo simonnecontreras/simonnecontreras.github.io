@@ -17,13 +17,20 @@ p {
   font-family: 'Noto Sans JP', sans-serif;
   font-size: 1.25rem;
   padding-bottom: 30px;
+  color: black;
 }
 
 a {
   font-weight: 600;
   font-family: 'Noto Sans JP', sans-serif;
-  font-size: 1.05rem;
-  color: #3251C3;
+  font-size: 1.2rem;
+  color: #000000;
+  text-decoration: underline;
+}
+
+a:hover {
+  font-style: italic;
+  color: #495057;
 }
 
 .homemargin {
@@ -63,17 +70,6 @@ a {
   margin: auto;
   position: relative;
   padding-bottom: 35px;
-}
-
-a {
-  color: #E1E3E6;
-  font-family: 'Noto Sans JP', sans-serif;
-  font-size: 1.2rem;
-}
-
-a:hover {
-  color: #FFFFFF;
-  text-decoration: none;
 }
 
 .projectheader {
